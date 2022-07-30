@@ -197,9 +197,9 @@ class Janela(QMainWindow):
                     resultado = int(calculo[i - 1]) + int(calculo[i + 1])
                 if e == '-':
                     resultado = int(calculo[i - 1]) - int(calculo[i + 1])
-                if e == '*':
+                if e == 'x':
                     resultado = int(calculo[i - 1]) * int(calculo[i + 1])
-                if e == '/':
+                if e == '÷':
                     resultado = int(calculo[i - 1]) / int(calculo[i + 1])
 
             self.digitou = str(resultado)
